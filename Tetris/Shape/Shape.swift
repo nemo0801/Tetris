@@ -12,7 +12,7 @@ import SpriteKit
 let NumOrientations: UInt32 = 4
 
 enum Orientation: Int, CustomStringConvertible {
-  case Zero = 0, Ninety, OneEight, TwoSeventy
+  case Zero = 0, Ninety, OneEighty, TwoSeventy
   
   var description: String {
     switch self {
@@ -20,7 +20,7 @@ enum Orientation: Int, CustomStringConvertible {
       return "0"
     case .Ninety:
       return "90"
-    case .OneEight:
+    case .OneEighty:
       return "180"
     case .TwoSeventy:
       return "270"
@@ -80,11 +80,11 @@ class Shape: Hashable, CustomStringConvertible {
   var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
     return[:]
   }
-  var bottomBlocksForOrientation: [Orientation: Array<Block>] {
+  var bottomBlocksForOrientations: [Orientation: Array<Block>] {
     return[:]
   }
   var bottomBlocks: Array<Block> {
-    if let bottomBlocks = bottomBlocksForOrientation[orientation] {
+    if let bottomBlocks = bottomBlocksForOrientations[orientation] {
       return bottomBlocks
     }
     return []
