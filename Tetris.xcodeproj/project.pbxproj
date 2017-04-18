@@ -25,6 +25,7 @@
 		CE633F6E1EA5F03000ECED38 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F6D1EA5F03000ECED38 /* Array2D.swift */; };
 		CE633F701EA5F7E900ECED38 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F6F1EA5F7E900ECED38 /* Block.swift */; };
 		CE633F721EA6009C00ECED38 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F711EA6009C00ECED38 /* Shape.swift */; };
+		CE633F741EA616D700ECED38 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F731EA616D700ECED38 /* SquareShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		CE633F6D1EA5F03000ECED38 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		CE633F6F1EA5F7E900ECED38 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		CE633F711EA6009C00ECED38 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		CE633F731EA616D700ECED38 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				CE633F6D1EA5F03000ECED38 /* Array2D.swift */,
 				CE633F6F1EA5F7E900ECED38 /* Block.swift */,
 				CE633F711EA6009C00ECED38 /* Shape.swift */,
+				CE633F731EA616D700ECED38 /* SquareShape.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE633F741EA616D700ECED38 /* SquareShape.swift in Sources */,
 				CE633F5B1EA5E47400ECED38 /* GameScene.swift in Sources */,
 				CE633F721EA6009C00ECED38 /* Shape.swift in Sources */,
 				CE633F6E1EA5F03000ECED38 /* Array2D.swift in Sources */,
