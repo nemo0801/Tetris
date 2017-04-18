@@ -11,7 +11,7 @@ import GameplayKit
 let TichLengthLevekOne = TimeInterval(600)
 class GameScene: SKScene {
   
-  var tick:(()->())?
+  var tick: (()->())?
   var tickLengthMillis = TichLengthLevekOne
   var lastTick: NSDate?
   override init(size: CGSize) {
@@ -26,9 +26,20 @@ class GameScene: SKScene {
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
+  
   override func update(_ currentTime: TimeInterval) {
     guard lastTick != nil else { return }
-    
+    let timePassed = lastTick!.timeIntervalSinceNow * -1000.0
+    if timePassed > tickLengthMillis {
+      lastTick = NSDate()
+      tick?()
+    }
   }
-    
+  
+  func startTicking() {
+    lastTick = NSDate()
+  }
+  func stopTicking() {
+    lastTick = nil
+  }
 }
