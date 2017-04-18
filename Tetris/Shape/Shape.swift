@@ -99,4 +99,34 @@ class Shape: Hashable, CustomStringConvertible {
   static func ==(lhs: Shape, rhs: Shape) -> Bool {
     return lhs.row == rhs.row && lhs.column == rhs.column
   }
+  
+  final func rotateBlocks(orientation: Orientation) {
+    if let blockRowColumnTranslation: Array<(columnDiff: Int, rowDiff: Int)> = blockRowColumnPositions[orientation]{
+      for (offset: idx, element: (columnDiff: columnDiff, rowDiff: rowDiff)) in blockRowColumnTranslation.enumerated() {
+        blocks[idx].column = column + columnDiff
+        blocks[idx].row = row + rowDiff
+        
+      }
+    }
+  }
+  
+  final func lowerShapeByOneRow() {
+    shiftBy(columns: 0, rows: 1)
+  }
+  
+  final func shiftBy(columns:Int, rows:Int) {
+    self.column += columns
+    self.row += rows
+    for block in blocks {
+      block.column! += columns
+      block.row! += rows
+    }
+  }
+  
+  final func moveTo(column: Int, row:Int) {
+    self.column += column
+    self.row += row
+    rotateBlocks(orientation: orientation)
+  }
+  static func random(startingColumn: Int, startingRow: Int)
 }
