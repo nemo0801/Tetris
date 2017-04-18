@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52A4B561EA66B48001F3CDE /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A4B551EA66B48001F3CDE /* Swiftris.swift */; };
 		C577234A1EA648640057BCA8 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57723481EA648640057BCA8 /* Shape.swift */; };
 		C577234B1EA648640057BCA8 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57723491EA648640057BCA8 /* SquareShape.swift */; };
 		C577234D1EA6488B0057BCA8 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577234C1EA6488B0057BCA8 /* TShape.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52A4B551EA66B48001F3CDE /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		C57723481EA648640057BCA8 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C57723491EA648640057BCA8 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		C577234C1EA6488B0057BCA8 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				CE633F6D1EA5F03000ECED38 /* Array2D.swift */,
 				CE633F6F1EA5F7E900ECED38 /* Block.swift */,
 				C57723471EA648640057BCA8 /* Shape */,
+				C52A4B551EA66B48001F3CDE /* Swiftris.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				CE633F6E1EA5F03000ECED38 /* Array2D.swift in Sources */,
 				CE633F701EA5F7E900ECED38 /* Block.swift in Sources */,
 				C577234B1EA648640057BCA8 /* SquareShape.swift in Sources */,
+				C52A4B561EA66B48001F3CDE /* Swiftris.swift in Sources */,
 				C577234F1EA6489E0057BCA8 /* LineShape.swift in Sources */,
 				C57723511EA648AC0057BCA8 /* SShape.swift in Sources */,
 				C577234D1EA6488B0057BCA8 /* TShape.swift in Sources */,

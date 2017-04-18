@@ -128,5 +128,22 @@ class Shape: Hashable, CustomStringConvertible {
     self.row += row
     rotateBlocks(orientation: orientation)
   }
-  static func random(startingColumn: Int, startingRow: Int)
+  static func random(startingColumn: Int, startingRow: Int) -> Shape {
+    switch Int(arc4random_uniform(NumShapeTypes)) {
+    case 0:
+      return SquareShape(column: startingColumn, row: startingRow)
+    case 1:
+      return LineShape(column: startingColumn, row: startingRow)
+    case 2:
+      return TShape(column: startingColumn, row: startingRow)
+    case 3:
+      return LShape(column: startingColumn, row: startingRow)
+    case 4:
+      return JShape(column: startingColumn, row: startingRow)
+    case 5:
+      return SShape(column: startingColumn, row: startingRow)
+    default:
+      return ZShape(column: startingColumn, row: startingRow)
+    }
+  }
 }
