@@ -2,7 +2,7 @@
 //  TetrisTests.swift
 //  TetrisTests
 //
-//  Created by JUXIN on 2017/4/18.
+//  Created by xiangyu on 2017/4/18.
 //  Copyright © 2017年 xiangyu. All rights reserved.
 //
 
