@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Array2D<T> {
+class Array2D<T> where T: Hashable {
   let columns: Int = 0
   let rows: Int = 0
   var array: Array<T?> = []
