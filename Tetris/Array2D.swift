@@ -16,11 +16,11 @@ class Array2D<T> where T: Hashable {
     array = Array<T?>(repeatElement(nil, count: columns * rows))
   }
   subscript(column: Int, row: Int) ->T?{
-  get {
-    return array[(column * row) + column]
-  }
-  set {
-    array[(column * row) + column] = newValue
-  }
+    get {
+      return array[(column * row) + column]
+    }
+    set {
+      array[(column * row) + column] = newValue
+    }
   }
 }
