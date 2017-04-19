@@ -17,7 +17,6 @@
 		C57723551EA648D80057BCA8 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57723541EA648D80057BCA8 /* LShape.swift */; };
 		C57723571EA648E50057BCA8 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57723561EA648E50057BCA8 /* JShape.swift */; };
 		CE633F271EA5E1F800ECED38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F261EA5E1F800ECED38 /* AppDelegate.swift */; };
-		CE633F2B1EA5E1F800ECED38 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE633F2A1EA5E1F800ECED38 /* Actions.sks */; };
 		CE633F2F1EA5E1F800ECED38 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE633F2E1EA5E1F800ECED38 /* GameViewController.swift */; };
 		CE633F321EA5E1F800ECED38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE633F301EA5E1F800ECED38 /* Main.storyboard */; };
 		CE633F341EA5E1F800ECED38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE633F331EA5E1F800ECED38 /* Assets.xcassets */; };
@@ -64,7 +63,6 @@
 		C57723561EA648E50057BCA8 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		CE633F231EA5E1F800ECED38 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE633F261EA5E1F800ECED38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE633F2A1EA5E1F800ECED38 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CE633F2E1EA5E1F800ECED38 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CE633F311EA5E1F800ECED38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE633F331EA5E1F800ECED38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				CE633F661EA5E70400ECED38 /* Sprites.atlas */,
 				CE633F5A1EA5E47400ECED38 /* GameScene.swift */,
 				CE633F261EA5E1F800ECED38 /* AppDelegate.swift */,
-				CE633F2A1EA5E1F800ECED38 /* Actions.sks */,
 				CE633F2E1EA5E1F800ECED38 /* GameViewController.swift */,
 				CE633F301EA5E1F800ECED38 /* Main.storyboard */,
 				CE633F331EA5E1F800ECED38 /* Assets.xcassets */,
@@ -311,7 +308,6 @@
 				CE633F341EA5E1F800ECED38 /* Assets.xcassets in Resources */,
 				CE633F6C1EA5E70400ECED38 /* Sprites.atlas in Resources */,
 				CE633F371EA5E1F800ECED38 /* LaunchScreen.storyboard in Resources */,
-				CE633F2B1EA5E1F800ECED38 /* Actions.sks in Resources */,
 				CE633F6A1EA5E70400ECED38 /* levelup.mp3 in Resources */,
 				CE633F681EA5E70400ECED38 /* drop.mp3 in Resources */,
 				CE633F6B1EA5E70400ECED38 /* theme.mp3 in Resources */,

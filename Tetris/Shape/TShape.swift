@@ -32,19 +32,19 @@ class TShape: Shape{
    */
   override var blockRowColumnPositions: [Orientation: [(columnDiff:Int, rowDiff: Int)]]{
     return [
-      Orientation.Zero : [(1,0),(0,1),(1,1),(2,1)],
-      Orientation.Ninety : [(2,1),(1,0),(1,1),(1,2)],
-      Orientation.OneEighty : [(1,2),(2,1),(1,1),(0,1)],
-      Orientation.TwoSeventy : [(0,1),(1,2),(1,1),(1,0)]
+      Orientation.zero : [(1,0),(0,1),(1,1),(2,1)],
+      Orientation.ninety : [(2,1),(1,0),(1,1),(1,2)],
+      Orientation.oneEighty : [(1,2),(2,1),(1,1),(0,1)],
+      Orientation.twoSeventy : [(0,1),(1,2),(1,1),(1,0)]
     ]
   }
   
   override var bottomBlocksForOrientations: [Orientation: [Block]]{
     return [
-      Orientation.Zero : [blocks[SecondBlockIdx],blocks[ThirdBlockIdx],blocks[FourthBlockIdx]],
-      Orientation.Ninety : [blocks[FirstBlockIdx],blocks[FourthBlockIdx]],
-      Orientation.OneEighty : [blocks[FirstBlockIdx],blocks[SecondBlockIdx],blocks[FourthBlockIdx]],
-      Orientation.TwoSeventy : [blocks[FirstBlockIdx],blocks[SecondBlockIdx]]
+      Orientation.zero : [blocks[SecondBlockIdx],blocks[ThirdBlockIdx],blocks[FourthBlockIdx]],
+      Orientation.ninety : [blocks[FirstBlockIdx],blocks[FourthBlockIdx]],
+      Orientation.oneEighty : [blocks[FirstBlockIdx],blocks[SecondBlockIdx],blocks[FourthBlockIdx]],
+      Orientation.twoSeventy : [blocks[FirstBlockIdx],blocks[SecondBlockIdx]]
     ]
   }
   
