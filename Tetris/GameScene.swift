@@ -108,7 +108,7 @@ class GameScene: SKScene {
   func redrawShape(shape: Shape,  completion:@escaping ()->()) {
     for ( _, block) in shape.blocks.enumerated() {
       let sprite = block.sprite!
-      let moveAction = SKAction.move(to: poinitForColumn(column: block.column, row: block.row), duration: TimeInterval(0.05))
+      let moveAction = SKAction.move(to: poinitForColumn(column: block.column, row: block.row), duration: 0.05)
       moveAction.timingMode = .easeOut
       sprite.run(moveAction)
     }

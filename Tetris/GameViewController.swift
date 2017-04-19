@@ -46,6 +46,8 @@ class GameViewController: UIViewController {
     return true
   }
   func didTick() {
+    swiftris.fallingShape?.column = 5
+
     swiftris.fallingShape?.lowerShapeByOneRow()
     scene.redrawShape(shape: swiftris.fallingShape!, completion: {})
   }

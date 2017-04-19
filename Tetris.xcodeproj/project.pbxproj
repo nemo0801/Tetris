@@ -162,8 +162,8 @@
 				CE633F381EA5E1F800ECED38 /* Info.plist */,
 				CE633F6D1EA5F03000ECED38 /* Array2D.swift */,
 				CE633F6F1EA5F7E900ECED38 /* Block.swift */,
-				C57723471EA648640057BCA8 /* Shape */,
 				C52A4B551EA66B48001F3CDE /* Swiftris.swift */,
+				C57723471EA648640057BCA8 /* Shape */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
